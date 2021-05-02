@@ -1,0 +1,38 @@
+{
+  "name": "stencil-injection",
+  "version": "1.0.0",
+  "description": "Stencil-injection is small package to make dependencies injection in StencilJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheeseGrinder/stencil-injection.git"
+  },
+  "keywords": [
+    "typescript",
+    "dependency-injection",
+    "stencil",
+    "front-end"
+  ],
+  "author": {
+    "name": "Sukaato",
+    "email": "sukaato.dev@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheeseGrinder/stencil-injection/issues"
+  },
+  "homepage": "https://github.com/CheeseGrinder/stencil-injection#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "typescript": "4.2.4"
+  },
+  "files": [
+    "dist/"
+  ],
+  "types": "dist/index.d.ts"
+}

@@ -1,0 +1,19 @@
+# source
+**/*.ts
+*.ts
+
+# definitions
+!**/*.d.ts
+!*.d.ts
+
+# configuration
+.prettierrc
+jest.config.json
+package-lock.json
+tsconfig.json
+
+#GitHub
+.github/
+
+#Test
+test/
